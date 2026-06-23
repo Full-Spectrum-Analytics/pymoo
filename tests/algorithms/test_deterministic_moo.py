@@ -13,6 +13,7 @@ from pymoo.algorithms.moo.mopso_cd import MOPSO_CD
 # Multi-objective algorithms
 from pymoo.algorithms.moo.nsga2 import NSGA2
 from pymoo.algorithms.moo.nsga3 import NSGA3
+from pymoo.algorithms.moo.omni_optimizer import OmniOptimizer
 from pymoo.algorithms.moo.pinsga2 import AutomatedDM
 from pymoo.algorithms.moo.pinsga2 import PINSGA2
 from pymoo.algorithms.moo.rnsga2 import RNSGA2
@@ -76,8 +77,8 @@ def create_algorithm_instance(algorithm_class):
 # Algorithm classes for testing
 MULTI_OBJECTIVE_ALGORITHM_CLASSES = [
     NSGA2, RNSGA2, NSGA3, UNSGA3, RNSGA3, MOEAD, ParallelMOEAD,
-    AGEMOEA, AGEMOEA2, CTAEA, SMSEMOA, RVEA, KGB, 
-    SPEA2, DNSGA2, PINSGA2, MOPSO_CD, CMOPSO
+    AGEMOEA, AGEMOEA2, CTAEA, SMSEMOA, RVEA, KGB,
+    SPEA2, DNSGA2, PINSGA2, MOPSO_CD, CMOPSO, OmniOptimizer
 ]
 
 # Test problem

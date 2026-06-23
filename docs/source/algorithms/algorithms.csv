@@ -21,3 +21,4 @@
    :ref:`RVEA <nb_rvea>`, RVEA, many, , A reference direction based algorithm used an angle-penalized metric.
    :ref:`CMOPSO <nb_cmopso>`, CMOPSO, multi, x, A competitive mechanism based multi-objective particle swarm optimizer with fast convergence using binary tournament selection on elites.
    :ref:`MOPSO-CD <nb_mopso_cd>`, MOPSO_CD, multi, x, Multi-objective particle swarm optimization with crowding distance mechanism for leader selection and archive management.
+   :ref:`Omni-Optimizer <nb_omni_optimizer>`, OmniOptimizer, multi, x, A generic NSGA-II based algorithm using a dynamic epsilon-dominance and crowding in objective and variable space to find multiple equivalent Pareto-optimal solutions.
